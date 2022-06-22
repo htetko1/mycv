@@ -1,0 +1,144 @@
+.row{
+    /*padding: 40px;*/
+    /*width: 700px;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*bottom: 0;*/
+    /*margin: auto;*/
+}
+.progressBar {
+    margin-bottom: 26px;
+    margin-bottom: 1.66em;
+    position: relative;
+
+}
+.progressBar h4 {
+    font-size: 16px;
+    text-transform: none;
+    margin-bottom: 7px;
+    margin-bottom: .33em;
+    color: #f3f3f3;
+}
+.progressBarcontainer {
+    width: 90%;
+    height: 10px;
+    background: #E1E1E1!important;
+    overflow: hidden;
+    border-radius: 0.3em;
+}
+.progressBarValue {
+    height: 10px;
+    float: left;
+    border-radius: 0.3em;
+    background: #30d960; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #30a352 0%, #5fc3e4 100%);
+    background: -webkit-linear-gradient(-45deg, #288e45 0%, #5fc3e4 100%);
+    background: linear-gradient(135deg, #29b14f 0%, #5fc3e4 100%);
+}
+
+.speech-bubble {
+    font-size: 1em;
+    line-height: 2em;
+    position: absolute;
+    top: -0.60em;
+    text-align: center;
+    min-width: 3em;
+    border-radius: 0.3em;
+    color: white;
+    display: none;
+}
+
+.speech-bubble:after {
+    border: 0.5em solid transparent;
+    content: "";
+    margin-left: -0.5em;
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+}
+
+.html {
+    left: calc(78.5% - 1.5em);
+}
+
+.css{
+    left: calc(70.5% - 1.5em);
+}
+
+.javascript{
+    left: calc(52.5% - 1.5em);
+}
+
+.vue{
+    left: calc(44.5% - 1.5em);
+}
+
+.jquery{
+    left: calc(52.5% - 1.5em);
+}
+.php{
+    left: calc(60.5% - 1.5em);
+}
+.laravel{
+    left: calc(70.5% - 1.5em);
+}
+.MYSQL{
+    left: calc(70.5% - 1.5em);
+}
+.git{
+    left: calc(60.5% - 1.5em);
+}
+.ubuntu{
+    left: calc(50.5% - 1.5em);
+}
+
+.html,
+.css,
+.javascript,
+.vue,
+.jquery,
+.php,
+.laravel,
+.MYSQL,
+.git,
+.ubuntu
+{
+    background: #3aa0d0;
+}
+
+.html:after {
+    border-top-color: #3aa0d0;
+}
+
+.css:after{
+    border-top-color:#3aa0d0;
+}
+
+.javascript:after{
+    border-top-color:#3aa0d0;
+}
+
+.vue:after{
+    border-top-color:#3aa0d0;
+}
+
+.jquery:after{
+    border-top-color:#3aa0d0;
+}
+.php:after{
+    border-top-color:#3aa0d0;
+}
+.laravel:after{
+    border-top-color:#3aa0d0;
+}
+.MYSQL:after{
+    border-top-color:#3aa0d0;
+}
+.git:after{
+    border-top-color:#3aa0d0;
+}
+.ubuntu:after{
+    border-top-color:#3aa0d0;
+}
