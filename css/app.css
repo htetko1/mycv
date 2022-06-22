@@ -245,16 +245,16 @@ body {
 }
 
 .slider .box4 .illustration .inner {
-    background-color: #ff0077;
+    /*background-color: #ff0077;*/
 }
 
 .slider .box4 .illustration .inner::after,
 .slider .box4 .illustration .inner::before {
-    background-color: rgba(255, 0, 119, 0.4);
+    /*background-color: rgba(255, 0, 119, 0.4);*/
 }
 
 .slider .box4 button {
-    background-color: #ff0077;
+    /*background-color: #ff0077;*/
 }
 
 .slider .box5 {
@@ -262,12 +262,12 @@ body {
 }
 
 .slider .box5 .illustration .inner {
-    background-color: #8000ff;
+    /*background-color: #8000ff;*/
 }
 
 .slider .box5 .illustration .inner::after,
 .slider .box5 .illustration .inner::before {
-    background-color: rgba(128, 0, 255, 0.4);
+    /*background-color: rgba(128, 0, 255, 0.4);*/
 }
 
 .slider .box5 button {
@@ -294,7 +294,7 @@ body {
     /* height: 25rem;*/
     /*width: 18rem;*/
     border-radius: 3rem;
-     background-color: #ff0077;
+     /*background-color: #ff0077;*/
     /* background-image: url("../htetkofooter1.png");
     background-size: cover;
     background-position: center;
@@ -479,6 +479,17 @@ body {
     letter-spacing: 0;
     margin-bottom: 15px;
 }
+.blog-title-card-project{
+    display: inline-block;
+    background-color: #5A0030 !important;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    letter-spacing: 0;
+    margin-bottom: 15px;
+}
 .blog-title{
     font-weight: 800;
     font-size: 30px;
@@ -488,6 +499,28 @@ body {
     position: absolute;
     bottom: 280px;
     right: 100px;
+}
+
+.card{
+    background-color: #5A0030 !important;
+    /*border: 5px solid #5A0030 !important;*/
+    /*border-radius: 3px 3px 3px 3px !important;*/
+}
+.card-body{
+
+}
+
+.btn-primary{
+    background-color: #ff0077 !important;
+    border-color: #ff0077 !important;
+}
+
+.forms{
+    background-color: !important;
+}
+
+.forms-btn{
+    background-color: #8000ff !important;
 }
 
 
